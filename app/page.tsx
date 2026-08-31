@@ -96,7 +96,7 @@ const projects = [
       "Microservices",
       "Docker",
     ],
-    image: "/projects/railway.jpg",
+    image: "/projects/RRS.png",
     github: "https://github.com/VAISHNA1102/RailwayReservationSystem",
     live: "https://github.com/VAISHNA1102/RailwayReservationSystem",
     accent: "from-orange-500/30 via-red-500/10 to-transparent",
@@ -122,9 +122,9 @@ const projects = [
       "Mockito",
       "SonarQube",
     ],
-    image: "/projects/interview.jpg",
-    github: "#",
-    live: "#",
+    image: "/projects/ITS.png",
+    github: "https://github.com/VAISHNA1102",
+    live: "https://github.com/VAISHNA1102",
     accent: "from-emerald-500/30 via-teal-500/10 to-transparent",
   },
   {
@@ -337,7 +337,7 @@ export default function Home() {
             <h1 className="text-5xl font-bold leading-[0.9] tracking-[-0.04em] sm:text-6xl md:text-7xl lg:text-8xl">
               Vaishnavi
               <br />
-              <span className="bg-gradient-to-r from-purple-600 via-purple-400 to-gray-500 dark:from-purple-300 dark:via-white dark:to-gray-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-purple-600 via-purple-400 to-gray-600 dark:from-purple-500  dark:to-gray-600 bg-clip-text text-transparent">
                 Sirimalla.
               </span>
             </h1>
@@ -453,7 +453,7 @@ export default function Home() {
             <div className="mt-10">
               <div className="mb-8 flex items-center gap-4">
                 <div className="rounded-2xl border border-[var(--border)] bg-[var(--card)] px-4 py-3 sm:px-5">
-                  <p className="text-base font-semibold sm:text-lg">Capgemini</p>
+                  <h1 className="text-xl font-bold sm:text-2xl">Capgemini</h1>
                   <p className="text-xs text-[var(--muted)]">Feb 2025 - Aug 2026</p>
                 </div>
                 <span className="h-px flex-1 bg-purple-500/20" />
