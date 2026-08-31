@@ -676,8 +676,6 @@ export default function Home() {
       <footer className="border-t border-[var(--border)] px-4 py-6 sm:px-6 sm:py-8 md:px-10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 text-xs text-[var(--muted)] sm:flex-row sm:text-sm">
           <p>&copy; 2026 Vaishnavi Sirimalla</p>
-          
-          <p>Designed &amp; built with curiosity &#10022;</p>
         </div>
       </footer>
     </main>
